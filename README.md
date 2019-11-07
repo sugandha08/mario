@@ -1,12 +1,19 @@
 # mario
 mario
+
+
 #include <cs50.h>
+
 #include <stdio.h>
 
 int main(void)
+
 {
-      int choice = get_int("enter a number");
-      while (choice<=0 | choice>8)
+ 
+ int choice = get_int("enter a number");
+    
+    while (choice<=0 | choice>8)
+      
       {
           choice = get_int("enter a number");
       }  
